@@ -1,7 +1,11 @@
 @import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/effect-fade';
+@import 'swiper/css/autoplay';
+
 
 :root {
-  --background: #ffffff;
+  --background: #000000;
   --foreground: #171717;
 }
 
