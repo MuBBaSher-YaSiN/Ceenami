@@ -22,12 +22,13 @@ export default function Navbar() {
             <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
 
                 {/* Logo */}
-                <Link href="/" className="text-2xl font-bold text-red-500">
-                    <Image
+                <Link href="/" className="text-2xl font-bold text-red-500" style={{ fontFamily: 'Arkhip' }}>
+                    {/* <Image
                         src={logo}
                         alt={`Ceenami Photo`}
                         className="w-20 object-cover h-full group-hover:scale-105 transition-transform duration-500"
-                    />
+                    /> */}
+                    Ceenami
                 </Link>
 
                 {/* Desktop Menu */}

@@ -14,7 +14,7 @@ const images = [frontImg1, frontImg2, frontImg3, frontImg4]
 export default function HeroSection() {
     return (
         <section className=" w-full bg-black text-white mt-10 min-h-[100vh] flex items-center">
-            <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10 px-4">
+            <div className="max-lg:pt-20 w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10 px-4">
 
                 {/* Left Side */}
                 <div className="w-full lg:w-1/2 text-center lg:text-left">
