@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection";
 import MusicLinks from "./components/MusicLinks";
 import PhotoShowcase from "./components/PhotoShowcase";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutSection />
       <MusicLinks />
       <PhotoShowcase />
+      <ScrollToTop />
     </div>
   );
 }
